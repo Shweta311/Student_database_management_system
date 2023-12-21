@@ -1,0 +1,359 @@
+[Mon Dec 20 18:46:39.491396 2021] [ssl:warn] [pid 22112:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 20 18:46:39.522722 2021] [ssl:warn] [pid 22112:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 20 18:46:45.896201 2021] [mpm_winnt:notice] [pid 22112:tid 592] AH00455: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.26 configured -- resuming normal operations
+[Mon Dec 20 18:46:45.896201 2021] [mpm_winnt:notice] [pid 22112:tid 592] AH00456: Apache Lounge VC15 Server built: Oct  8 2021 10:03:59
+[Mon Dec 20 18:46:45.896201 2021] [core:notice] [pid 22112:tid 592] AH00094: Command line: 'd:\\xampp server\\cp_dbms\\apache\\bin\\httpd.exe -d D:/xampp server/cp_dbms/apache'
+[Mon Dec 20 18:46:45.911951 2021] [mpm_winnt:notice] [pid 22112:tid 592] AH00418: Parent: Created child process 1520
+[Mon Dec 20 18:46:46.191077 2021] [ssl:warn] [pid 1520:tid 604] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 20 18:46:46.222321 2021] [ssl:warn] [pid 1520:tid 604] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 20 18:46:46.269342 2021] [mpm_winnt:notice] [pid 1520:tid 604] AH00354: Child: Starting 150 worker threads.
+[Mon Dec 20 18:50:59.783718 2021] [php7:warn] [pid 1520:tid 1900] [client ::1:52806] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 2
+[Mon Dec 20 18:50:59.791744 2021] [php7:notice] [pid 1520:tid 1900] [client ::1:52806] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Mon Dec 20 18:50:59.791744 2021] [php7:warn] [pid 1520:tid 1900] [client ::1:52806] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Mon Dec 20 18:50:59.791744 2021] [php7:error] [pid 1520:tid 1900] [client ::1:52806] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php:5\nStack trace:\n#0 D:\\xampp server\\cp_dbms\\htdocs\\bank\\index.php(10): require()\n#1 {main}\n  thrown in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 5
+[Mon Dec 20 18:50:59.804468 2021] [php7:warn] [pid 1520:tid 1900] [client ::1:52806] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 8
+[Mon Dec 20 18:51:13.065917 2021] [php7:warn] [pid 1520:tid 1848] [client ::1:52819] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 8, referer: http://localhost/bank/login.php
+[Mon Dec 20 18:51:13.065917 2021] [php7:warn] [pid 1520:tid 1848] [client ::1:52819] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 18, referer: http://localhost/bank/login.php
+[Mon Dec 20 18:51:13.065917 2021] [php7:notice] [pid 1520:tid 1848] [client ::1:52819] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 19, referer: http://localhost/bank/login.php
+[Mon Dec 20 18:58:51.341159 2021] [mpm_winnt:notice] [pid 22112:tid 592] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 20 18:58:53.348674 2021] [mpm_winnt:notice] [pid 1520:tid 604] AH00364: Child: All worker threads have exited.
+[Mon Dec 20 18:58:53.406539 2021] [mpm_winnt:notice] [pid 22112:tid 592] AH00430: Parent: Child process 1520 exited successfully.
+[Mon Dec 20 18:59:05.327648 2021] [ssl:warn] [pid 17412:tid 624] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 20 18:59:05.374553 2021] [ssl:warn] [pid 17412:tid 624] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 20 18:59:05.408277 2021] [mpm_winnt:notice] [pid 17412:tid 624] AH00455: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.26 configured -- resuming normal operations
+[Mon Dec 20 18:59:05.408277 2021] [mpm_winnt:notice] [pid 17412:tid 624] AH00456: Apache Lounge VC15 Server built: Oct  8 2021 10:03:59
+[Mon Dec 20 18:59:05.408277 2021] [core:notice] [pid 17412:tid 624] AH00094: Command line: 'apache\\bin\\httpd.exe -d D:/xampp server/cp_dbms/apache -f conf\\httpd.conf'
+[Mon Dec 20 18:59:05.408277 2021] [mpm_winnt:notice] [pid 17412:tid 624] AH00418: Parent: Created child process 23352
+Apache server shutdown initiated...
+sl:warn] [pid 23352:tid 632] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 20 18:59:05.756251 2021] [ssl:warn] [pid 23352:tid 632] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 20 18:59:05.803118 2021] [mpm_winnt:notice] [pid 23352:tid 632] AH00354: Child: Starting 150 worker threads.
+[Mon Dec 20 19:01:24.469625 2021] [mpm_winnt:notice] [pid 17412:tid 624] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Mon Dec 20 19:01:26.503837 2021] [mpm_winnt:notice] [pid 23352:tid 632] AH00364: Child: All worker threads have exited.
+[Mon Dec 20 19:01:26.539757 2021] [mpm_winnt:notice] [pid 17412:tid 624] AH00430: Parent: Child process 23352 exited successfully.
+[Mon Dec 20 19:01:53.884320 2021] [ssl:warn] [pid 18408:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 20 19:01:53.915705 2021] [ssl:warn] [pid 18408:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 20 19:01:53.947668 2021] [mpm_winnt:notice] [pid 18408:tid 584] AH00455: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.26 configured -- resuming normal operations
+[Mon Dec 20 19:01:53.947668 2021] [mpm_winnt:notice] [pid 18408:tid 584] AH00456: Apache Lounge VC15 Server built: Oct  8 2021 10:03:59
+[Mon Dec 20 19:01:53.947668 2021] [core:notice] [pid 18408:tid 584] AH00094: Command line: 'd:\\xampp server\\cp_dbms\\apache\\bin\\httpd.exe -d D:/xampp server/cp_dbms/apache'
+[Mon Dec 20 19:01:53.947668 2021] [mpm_winnt:notice] [pid 18408:tid 584] AH00418: Parent: Created child process 14272
+[Mon Dec 20 19:01:54.148723 2021] [ssl:warn] [pid 14272:tid 604] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 20 19:01:54.181154 2021] [ssl:warn] [pid 14272:tid 604] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon Dec 20 19:01:54.212469 2021] [mpm_winnt:notice] [pid 14272:tid 604] AH00354: Child: Starting 150 worker threads.
+[Tue Jan 04 19:40:25.052881 2022] [ssl:warn] [pid 14496:tid 612] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 04 19:40:25.142407 2022] [core:warn] [pid 14496:tid 612] AH00098: pid file D:/xampp server/cp_dbms/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jan 04 19:40:25.147900 2022] [ssl:warn] [pid 14496:tid 612] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 04 19:40:25.324144 2022] [mpm_winnt:notice] [pid 14496:tid 612] AH00455: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.26 configured -- resuming normal operations
+[Tue Jan 04 19:40:25.324144 2022] [mpm_winnt:notice] [pid 14496:tid 612] AH00456: Apache Lounge VC15 Server built: Oct  8 2021 10:03:59
+[Tue Jan 04 19:40:25.324144 2022] [core:notice] [pid 14496:tid 612] AH00094: Command line: 'd:\\xampp server\\cp_dbms\\apache\\bin\\httpd.exe -d D:/xampp server/cp_dbms/apache'
+[Tue Jan 04 19:40:40.060525 2022] [mpm_winnt:notice] [pid 14496:tid 612] AH00418: Parent: Created child process 19452
+[Tue Jan 04 19:40:40.295499 2022] [ssl:warn] [pid 19452:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 04 19:40:40.341999 2022] [ssl:warn] [pid 19452:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 04 19:40:40.391251 2022] [mpm_winnt:notice] [pid 19452:tid 584] AH00354: Child: Starting 150 worker threads.
+[Tue Jan 04 22:28:24.957134 2022] [ssl:warn] [pid 2936:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 04 22:28:25.000123 2022] [core:warn] [pid 2936:tid 584] AH00098: pid file D:/xampp server/cp_dbms/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jan 04 22:28:25.009429 2022] [ssl:warn] [pid 2936:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 04 22:28:25.049267 2022] [mpm_winnt:notice] [pid 2936:tid 584] AH00455: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.26 configured -- resuming normal operations
+[Tue Jan 04 22:28:25.049267 2022] [mpm_winnt:notice] [pid 2936:tid 584] AH00456: Apache Lounge VC15 Server built: Oct  8 2021 10:03:59
+[Tue Jan 04 22:28:25.049267 2022] [core:notice] [pid 2936:tid 584] AH00094: Command line: 'd:\\xampp server\\cp_dbms\\apache\\bin\\httpd.exe -d D:/xampp server/cp_dbms/apache'
+[Tue Jan 04 22:28:25.060004 2022] [mpm_winnt:notice] [pid 2936:tid 584] AH00418: Parent: Created child process 14408
+[Tue Jan 04 22:28:25.280323 2022] [ssl:warn] [pid 14408:tid 576] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 04 22:28:25.320135 2022] [ssl:warn] [pid 14408:tid 576] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 04 22:28:25.367238 2022] [mpm_winnt:notice] [pid 14408:tid 576] AH00354: Child: Starting 150 worker threads.
+[Tue Jan 04 22:28:34.309848 2022] [php7:warn] [pid 14408:tid 1848] [client ::1:62894] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 2
+[Tue Jan 04 22:28:34.309848 2022] [php7:notice] [pid 14408:tid 1848] [client ::1:62894] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Tue Jan 04 22:28:34.309848 2022] [php7:warn] [pid 14408:tid 1848] [client ::1:62894] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Tue Jan 04 22:28:34.316401 2022] [php7:error] [pid 14408:tid 1848] [client ::1:62894] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php:5\nStack trace:\n#0 D:\\xampp server\\cp_dbms\\htdocs\\bank\\index.php(10): require()\n#1 {main}\n  thrown in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 5
+[Tue Jan 04 22:28:34.330358 2022] [php7:warn] [pid 14408:tid 1848] [client ::1:62894] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 8
+[Tue Jan 04 22:28:48.770029 2022] [php7:warn] [pid 14408:tid 1812] [client ::1:62905] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 8, referer: http://localhost/bank/login.php
+[Tue Jan 04 22:28:48.770029 2022] [php7:warn] [pid 14408:tid 1812] [client ::1:62905] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 18, referer: http://localhost/bank/login.php
+[Tue Jan 04 22:28:48.770029 2022] [php7:notice] [pid 14408:tid 1812] [client ::1:62905] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 19, referer: http://localhost/bank/login.php
+[Tue Jan 04 23:25:00.952933 2022] [ssl:warn] [pid 19248:tid 568] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 04 23:25:00.983831 2022] [core:warn] [pid 19248:tid 568] AH00098: pid file D:/xampp server/cp_dbms/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jan 04 23:25:00.985823 2022] [ssl:warn] [pid 19248:tid 568] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 04 23:25:01.009743 2022] [mpm_winnt:notice] [pid 19248:tid 568] AH00455: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.26 configured -- resuming normal operations
+[Tue Jan 04 23:25:01.009743 2022] [mpm_winnt:notice] [pid 19248:tid 568] AH00456: Apache Lounge VC15 Server built: Oct  8 2021 10:03:59
+[Tue Jan 04 23:25:01.009743 2022] [core:notice] [pid 19248:tid 568] AH00094: Command line: 'd:\\xampp server\\cp_dbms\\apache\\bin\\httpd.exe -d D:/xampp server/cp_dbms/apache'
+[Tue Jan 04 23:25:01.011737 2022] [mpm_winnt:notice] [pid 19248:tid 568] AH00418: Parent: Created child process 18520
+[Tue Jan 04 23:25:01.206087 2022] [ssl:warn] [pid 18520:tid 580] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 04 23:25:01.237051 2022] [ssl:warn] [pid 18520:tid 580] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 04 23:25:01.263893 2022] [mpm_winnt:notice] [pid 18520:tid 580] AH00354: Child: Starting 150 worker threads.
+[Tue Jan 04 23:25:27.267601 2022] [php7:warn] [pid 18520:tid 1828] [client ::1:63311] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 2
+[Tue Jan 04 23:25:27.267601 2022] [php7:notice] [pid 18520:tid 1828] [client ::1:63311] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Tue Jan 04 23:25:27.268596 2022] [php7:warn] [pid 18520:tid 1828] [client ::1:63311] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Tue Jan 04 23:25:27.268596 2022] [php7:error] [pid 18520:tid 1828] [client ::1:63311] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php:5\nStack trace:\n#0 D:\\xampp server\\cp_dbms\\htdocs\\bank\\index.php(10): require()\n#1 {main}\n  thrown in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 5
+[Tue Jan 04 23:25:27.285540 2022] [php7:warn] [pid 18520:tid 1828] [client ::1:63311] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 8
+[Tue Jan 04 23:25:34.502520 2022] [php7:warn] [pid 18520:tid 1832] [client ::1:63310] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 8, referer: http://localhost/bank/login.php
+[Tue Jan 04 23:25:34.502520 2022] [php7:warn] [pid 18520:tid 1832] [client ::1:63310] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 18, referer: http://localhost/bank/login.php
+[Tue Jan 04 23:25:34.503510 2022] [php7:notice] [pid 18520:tid 1832] [client ::1:63310] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 19, referer: http://localhost/bank/login.php
+[Tue Jan 04 23:25:51.761587 2022] [php7:warn] [pid 18520:tid 1828] [client ::1:63316] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 8, referer: http://localhost/bank/login.php
+[Tue Jan 04 23:25:51.761587 2022] [php7:warn] [pid 18520:tid 1828] [client ::1:63316] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 58, referer: http://localhost/bank/login.php
+[Tue Jan 04 23:25:51.761587 2022] [php7:notice] [pid 18520:tid 1828] [client ::1:63316] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 59, referer: http://localhost/bank/login.php
+[Tue Jan 04 23:26:07.110606 2022] [php7:warn] [pid 18520:tid 1832] [client ::1:63319] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 8, referer: http://localhost/bank/login.php
+[Tue Jan 04 23:26:07.110606 2022] [php7:warn] [pid 18520:tid 1832] [client ::1:63319] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 18, referer: http://localhost/bank/login.php
+[Tue Jan 04 23:26:07.110606 2022] [php7:notice] [pid 18520:tid 1832] [client ::1:63319] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 19, referer: http://localhost/bank/login.php
+[Wed Jan 05 10:16:59.979593 2022] [ssl:warn] [pid 1312:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 05 10:17:00.011864 2022] [core:warn] [pid 1312:tid 584] AH00098: pid file D:/xampp server/cp_dbms/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jan 05 10:17:00.011864 2022] [ssl:warn] [pid 1312:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 05 10:17:00.064012 2022] [mpm_winnt:notice] [pid 1312:tid 584] AH00455: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.26 configured -- resuming normal operations
+[Wed Jan 05 10:17:00.064012 2022] [mpm_winnt:notice] [pid 1312:tid 584] AH00456: Apache Lounge VC15 Server built: Oct  8 2021 10:03:59
+[Wed Jan 05 10:17:00.064012 2022] [core:notice] [pid 1312:tid 584] AH00094: Command line: 'd:\\xampp server\\cp_dbms\\apache\\bin\\httpd.exe -d D:/xampp server/cp_dbms/apache'
+[Wed Jan 05 10:17:00.064012 2022] [mpm_winnt:notice] [pid 1312:tid 584] AH00418: Parent: Created child process 17212
+[Wed Jan 05 10:17:00.246897 2022] [ssl:warn] [pid 17212:tid 572] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 05 10:17:00.293768 2022] [ssl:warn] [pid 17212:tid 572] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 05 10:17:00.312145 2022] [mpm_winnt:notice] [pid 17212:tid 572] AH00354: Child: Starting 150 worker threads.
+[Wed Jan 05 10:17:15.341106 2022] [php7:warn] [pid 17212:tid 1860] [client ::1:62904] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 2
+[Wed Jan 05 10:17:15.341106 2022] [php7:notice] [pid 17212:tid 1860] [client ::1:62904] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Wed Jan 05 10:17:15.349661 2022] [php7:warn] [pid 17212:tid 1860] [client ::1:62904] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Wed Jan 05 10:17:15.350343 2022] [php7:error] [pid 17212:tid 1860] [client ::1:62904] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php:5\nStack trace:\n#0 D:\\xampp server\\cp_dbms\\htdocs\\bank\\index.php(10): require()\n#1 {main}\n  thrown in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 5
+[Wed Jan 05 10:17:15.370700 2022] [php7:warn] [pid 17212:tid 1860] [client ::1:62904] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 8
+[Wed Jan 05 10:18:26.910045 2022] [php7:warn] [pid 17212:tid 1856] [client ::1:62953] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 2
+[Wed Jan 05 10:18:26.918263 2022] [php7:notice] [pid 17212:tid 1856] [client ::1:62953] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Wed Jan 05 10:18:26.918263 2022] [php7:warn] [pid 17212:tid 1856] [client ::1:62953] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Wed Jan 05 10:18:26.918263 2022] [php7:error] [pid 17212:tid 1856] [client ::1:62953] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php:5\nStack trace:\n#0 D:\\xampp server\\cp_dbms\\htdocs\\bank\\index.php(10): require()\n#1 {main}\n  thrown in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 5
+[Wed Jan 05 10:18:26.926207 2022] [php7:warn] [pid 17212:tid 1856] [client ::1:62953] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 8
+[Wed Jan 05 10:18:29.989928 2022] [php7:warn] [pid 17212:tid 1856] [client ::1:62953] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 8
+[Wed Jan 05 15:18:13.371120 2022] [ssl:warn] [pid 19280:tid 404] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 05 15:18:13.410762 2022] [core:warn] [pid 19280:tid 404] AH00098: pid file D:/xampp server/cp_dbms/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jan 05 15:18:13.414182 2022] [ssl:warn] [pid 19280:tid 404] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 05 15:18:13.587642 2022] [mpm_winnt:notice] [pid 19280:tid 404] AH00455: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.26 configured -- resuming normal operations
+[Wed Jan 05 15:18:13.587642 2022] [mpm_winnt:notice] [pid 19280:tid 404] AH00456: Apache Lounge VC15 Server built: Oct  8 2021 10:03:59
+[Wed Jan 05 15:18:13.587642 2022] [core:notice] [pid 19280:tid 404] AH00094: Command line: 'd:\\xampp server\\cp_dbms\\apache\\bin\\httpd.exe -d D:/xampp server/cp_dbms/apache'
+[Wed Jan 05 15:18:13.589636 2022] [mpm_winnt:notice] [pid 19280:tid 404] AH00418: Parent: Created child process 27752
+[Wed Jan 05 15:18:13.803883 2022] [ssl:warn] [pid 27752:tid 580] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 05 15:18:13.837179 2022] [ssl:warn] [pid 27752:tid 580] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jan 05 15:18:13.881995 2022] [mpm_winnt:notice] [pid 27752:tid 580] AH00354: Child: Starting 150 worker threads.
+[Wed Jan 05 15:18:22.790797 2022] [php7:warn] [pid 27752:tid 1840] [client ::1:51681] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 2
+[Wed Jan 05 15:18:22.790797 2022] [php7:notice] [pid 27752:tid 1840] [client ::1:51681] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Wed Jan 05 15:18:22.790797 2022] [php7:warn] [pid 27752:tid 1840] [client ::1:51681] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Wed Jan 05 15:18:22.790797 2022] [php7:error] [pid 27752:tid 1840] [client ::1:51681] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php:5\nStack trace:\n#0 D:\\xampp server\\cp_dbms\\htdocs\\bank\\index.php(10): require()\n#1 {main}\n  thrown in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 5
+[Wed Jan 05 15:18:22.804091 2022] [php7:warn] [pid 27752:tid 1840] [client ::1:51681] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 8
+[Wed Jan 05 15:18:34.163160 2022] [php7:warn] [pid 27752:tid 1832] [client ::1:51682] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 2
+[Wed Jan 05 15:18:34.165212 2022] [php7:notice] [pid 27752:tid 1832] [client ::1:51682] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Wed Jan 05 15:18:34.166137 2022] [php7:warn] [pid 27752:tid 1832] [client ::1:51682] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Wed Jan 05 15:18:34.166137 2022] [php7:error] [pid 27752:tid 1832] [client ::1:51682] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php:5\nStack trace:\n#0 D:\\xampp server\\cp_dbms\\htdocs\\bank\\index.php(10): require()\n#1 {main}\n  thrown in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 5
+[Thu Jan 06 14:55:17.413476 2022] [ssl:warn] [pid 19804:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 06 14:55:17.469094 2022] [core:warn] [pid 19804:tid 552] AH00098: pid file D:/xampp server/cp_dbms/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jan 06 14:55:17.474941 2022] [ssl:warn] [pid 19804:tid 552] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 06 14:55:18.519360 2022] [mpm_winnt:notice] [pid 19804:tid 552] AH00455: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.26 configured -- resuming normal operations
+[Thu Jan 06 14:55:18.519360 2022] [mpm_winnt:notice] [pid 19804:tid 552] AH00456: Apache Lounge VC15 Server built: Oct  8 2021 10:03:59
+[Thu Jan 06 14:55:18.519360 2022] [core:notice] [pid 19804:tid 552] AH00094: Command line: 'd:\\xampp server\\cp_dbms\\apache\\bin\\httpd.exe -d D:/xampp server/cp_dbms/apache'
+[Thu Jan 06 14:55:18.519360 2022] [mpm_winnt:notice] [pid 19804:tid 552] AH00418: Parent: Created child process 10832
+[Thu Jan 06 14:55:18.853759 2022] [ssl:warn] [pid 10832:tid 156] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 06 14:55:18.893823 2022] [ssl:warn] [pid 10832:tid 156] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 06 14:55:18.934169 2022] [mpm_winnt:notice] [pid 10832:tid 156] AH00354: Child: Starting 150 worker threads.
+[Thu Jan 06 15:08:59.967448 2022] [ssl:warn] [pid 17916:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 06 15:08:59.999381 2022] [core:warn] [pid 17916:tid 592] AH00098: pid file D:/xampp server/cp_dbms/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jan 06 15:08:59.999381 2022] [ssl:warn] [pid 17916:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 06 15:09:00.039751 2022] [mpm_winnt:notice] [pid 17916:tid 592] AH00455: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.26 configured -- resuming normal operations
+[Thu Jan 06 15:09:00.039751 2022] [mpm_winnt:notice] [pid 17916:tid 592] AH00456: Apache Lounge VC15 Server built: Oct  8 2021 10:03:59
+[Thu Jan 06 15:09:00.039751 2022] [core:notice] [pid 17916:tid 592] AH00094: Command line: 'd:\\xampp server\\cp_dbms\\apache\\bin\\httpd.exe -d D:/xampp server/cp_dbms/apache'
+[Thu Jan 06 15:09:00.039751 2022] [mpm_winnt:notice] [pid 17916:tid 592] AH00418: Parent: Created child process 15788
+[Thu Jan 06 15:09:00.228249 2022] [ssl:warn] [pid 15788:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 06 15:09:00.275154 2022] [ssl:warn] [pid 15788:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 06 15:09:00.298720 2022] [mpm_winnt:notice] [pid 15788:tid 592] AH00354: Child: Starting 150 worker threads.
+[Thu Jan 06 15:14:56.342056 2022] [php7:warn] [pid 15788:tid 1804] [client ::1:58447] PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'mybank' in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 2
+[Thu Jan 06 15:14:56.342056 2022] [php7:notice] [pid 15788:tid 1804] [client ::1:58447] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Thu Jan 06 15:14:56.342056 2022] [php7:warn] [pid 15788:tid 1804] [client ::1:58447] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Thu Jan 06 15:14:56.342056 2022] [php7:error] [pid 15788:tid 1804] [client ::1:58447] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php:5\nStack trace:\n#0 D:\\xampp server\\cp_dbms\\htdocs\\bank\\index.php(10): require()\n#1 {main}\n  thrown in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 5
+[Thu Jan 06 15:14:56.353680 2022] [php7:warn] [pid 15788:tid 1804] [client ::1:58447] PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'mybank' in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 8
+[Thu Jan 06 15:14:58.636660 2022] [php7:warn] [pid 15788:tid 1804] [client ::1:58447] PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'mybank' in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 2
+[Thu Jan 06 15:14:58.636660 2022] [php7:notice] [pid 15788:tid 1804] [client ::1:58447] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Thu Jan 06 15:14:58.636660 2022] [php7:warn] [pid 15788:tid 1804] [client ::1:58447] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Thu Jan 06 15:14:58.636660 2022] [php7:error] [pid 15788:tid 1804] [client ::1:58447] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php:5\nStack trace:\n#0 D:\\xampp server\\cp_dbms\\htdocs\\bank\\index.php(10): require()\n#1 {main}\n  thrown in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 5
+[Thu Jan 06 15:17:15.250420 2022] [php7:warn] [pid 15788:tid 1804] [client ::1:53249] PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'mybank' in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 8
+[Thu Jan 06 15:17:17.929458 2022] [php7:warn] [pid 15788:tid 1820] [client ::1:53258] PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'mybank' in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 8
+[Thu Jan 06 15:18:56.140037 2022] [php7:warn] [pid 15788:tid 1804] [client ::1:53312] PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'mybank' in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 8, referer: http://localhost/bank/login.php
+[Thu Jan 06 15:18:56.140037 2022] [php7:warn] [pid 15788:tid 1804] [client ::1:53312] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 18, referer: http://localhost/bank/login.php
+[Thu Jan 06 15:18:56.140037 2022] [php7:notice] [pid 15788:tid 1804] [client ::1:53312] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 19, referer: http://localhost/bank/login.php
+[Thu Jan 06 15:20:35.582456 2022] [php7:warn] [pid 15788:tid 1820] [client ::1:53341] PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'mybank' in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 8, referer: http://localhost/bank/login.php
+[Thu Jan 06 15:20:35.582456 2022] [php7:warn] [pid 15788:tid 1820] [client ::1:53341] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 18, referer: http://localhost/bank/login.php
+[Thu Jan 06 15:20:35.582456 2022] [php7:notice] [pid 15788:tid 1820] [client ::1:53341] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 19, referer: http://localhost/bank/login.php
+[Thu Jan 06 15:21:11.414813 2022] [php7:warn] [pid 15788:tid 1824] [client ::1:53342] PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'mybank' in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 8, referer: http://localhost/bank/login.php
+[Thu Jan 06 15:21:11.414813 2022] [php7:warn] [pid 15788:tid 1824] [client ::1:53342] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 18, referer: http://localhost/bank/login.php
+[Thu Jan 06 15:21:11.414813 2022] [php7:notice] [pid 15788:tid 1824] [client ::1:53342] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 19, referer: http://localhost/bank/login.php
+[Thu Jan 06 15:21:30.358363 2022] [php7:warn] [pid 15788:tid 1820] [client ::1:53346] PHP Warning:  mysqli::__construct(): (HY000/1049): Unknown database 'mybank' in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 8, referer: http://localhost/bank/login.php
+[Thu Jan 06 15:21:30.358363 2022] [php7:warn] [pid 15788:tid 1820] [client ::1:53346] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 58, referer: http://localhost/bank/login.php
+[Thu Jan 06 15:21:30.358363 2022] [php7:notice] [pid 15788:tid 1820] [client ::1:53346] PHP Notice:  Trying to get property 'num_rows' of non-object in D:\\xampp server\\cp_dbms\\htdocs\\bank\\login.php on line 59, referer: http://localhost/bank/login.php
+[Thu Jan 06 15:24:37.414460 2022] [php7:notice] [pid 15788:tid 1820] [client ::1:63518] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/login.php
+[Thu Jan 06 15:25:16.598387 2022] [php7:notice] [pid 15788:tid 1804] [client ::1:63519] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Thu Jan 06 15:25:16.598387 2022] [php7:notice] [pid 15788:tid 1804] [client ::1:63519] PHP Notice:  Trying to access array offset on value of type null in D:\\xampp server\\cp_dbms\\htdocs\\bank\\sideButton.php on line 2
+[Thu Jan 06 15:25:16.598387 2022] [php7:notice] [pid 15788:tid 1804] [client ::1:63519] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\index.php on line 47
+[Thu Jan 06 15:25:17.577318 2022] [php7:notice] [pid 15788:tid 1804] [client ::1:63519] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Thu Jan 06 15:25:17.581299 2022] [php7:notice] [pid 15788:tid 1804] [client ::1:63519] PHP Notice:  Trying to access array offset on value of type null in D:\\xampp server\\cp_dbms\\htdocs\\bank\\sideButton.php on line 2
+[Thu Jan 06 15:25:17.582308 2022] [php7:notice] [pid 15788:tid 1804] [client ::1:63519] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\index.php on line 47
+[Thu Jan 06 15:27:00.202607 2022] [php7:notice] [pid 15788:tid 1804] [client ::1:63630] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/login.php
+[Thu Jan 06 15:27:07.624546 2022] [php7:notice] [pid 15788:tid 1824] [client ::1:63637] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/mindex.php
+[Thu Jan 06 15:27:13.140952 2022] [php7:notice] [pid 15788:tid 1804] [client ::1:64148] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/login.php
+[Thu Jan 06 15:27:21.568141 2022] [php7:notice] [pid 15788:tid 1824] [client ::1:64150] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/mindex.php
+[Thu Jan 06 15:27:21.595727 2022] [php7:notice] [pid 15788:tid 1824] [client ::1:64150] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/mindex.php
+[Thu Jan 06 15:27:22.571833 2022] [php7:notice] [pid 15788:tid 1824] [client ::1:64150] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/mindex.php
+[Thu Jan 06 15:27:22.592918 2022] [php7:notice] [pid 15788:tid 1824] [client ::1:64150] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/mindex.php
+[Thu Jan 06 15:27:24.366054 2022] [php7:notice] [pid 15788:tid 1824] [client ::1:64150] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/mindex.php
+[Thu Jan 06 15:28:32.098946 2022] [php7:notice] [pid 15788:tid 1804] [client ::1:64172] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/mindex.php
+[Thu Jan 06 21:23:52.416363 2022] [ssl:warn] [pid 6288:tid 536] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 06 21:23:52.452903 2022] [core:warn] [pid 6288:tid 536] AH00098: pid file D:/xampp server/cp_dbms/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jan 06 21:23:52.455902 2022] [ssl:warn] [pid 6288:tid 536] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 06 21:23:52.497704 2022] [mpm_winnt:notice] [pid 6288:tid 536] AH00455: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.26 configured -- resuming normal operations
+[Thu Jan 06 21:23:52.497704 2022] [mpm_winnt:notice] [pid 6288:tid 536] AH00456: Apache Lounge VC15 Server built: Oct  8 2021 10:03:59
+[Thu Jan 06 21:23:52.498704 2022] [core:notice] [pid 6288:tid 536] AH00094: Command line: 'd:\\xampp server\\cp_dbms\\apache\\bin\\httpd.exe -d D:/xampp server/cp_dbms/apache'
+[Thu Jan 06 21:23:52.500578 2022] [mpm_winnt:notice] [pid 6288:tid 536] AH00418: Parent: Created child process 19508
+[Thu Jan 06 21:23:52.819153 2022] [ssl:warn] [pid 19508:tid 588] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 06 21:23:52.857528 2022] [ssl:warn] [pid 19508:tid 588] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 06 21:23:52.892086 2022] [mpm_winnt:notice] [pid 19508:tid 588] AH00354: Child: Starting 150 worker threads.
+[Thu Jan 06 21:27:18.198382 2022] [ssl:warn] [pid 18172:tid 588] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 06 21:27:18.235453 2022] [core:warn] [pid 18172:tid 588] AH00098: pid file D:/xampp server/cp_dbms/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jan 06 21:27:18.237065 2022] [ssl:warn] [pid 18172:tid 588] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 06 21:27:18.271130 2022] [mpm_winnt:notice] [pid 18172:tid 588] AH00455: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.26 configured -- resuming normal operations
+[Thu Jan 06 21:27:18.271130 2022] [mpm_winnt:notice] [pid 18172:tid 588] AH00456: Apache Lounge VC15 Server built: Oct  8 2021 10:03:59
+[Thu Jan 06 21:27:18.271130 2022] [core:notice] [pid 18172:tid 588] AH00094: Command line: 'd:\\xampp server\\cp_dbms\\apache\\bin\\httpd.exe -d D:/xampp server/cp_dbms/apache'
+[Thu Jan 06 21:27:18.273130 2022] [mpm_winnt:notice] [pid 18172:tid 588] AH00418: Parent: Created child process 19560
+[Thu Jan 06 21:27:18.508211 2022] [ssl:warn] [pid 19560:tid 600] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 06 21:27:18.550022 2022] [ssl:warn] [pid 19560:tid 600] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Jan 06 21:27:18.590563 2022] [mpm_winnt:notice] [pid 19560:tid 600] AH00354: Child: Starting 150 worker threads.
+[Thu Jan 06 21:27:43.740997 2022] [php7:notice] [pid 19560:tid 1824] [client ::1:59396] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Thu Jan 06 21:27:43.750694 2022] [php7:notice] [pid 19560:tid 1824] [client ::1:59396] PHP Notice:  Trying to access array offset on value of type null in D:\\xampp server\\cp_dbms\\htdocs\\bank\\sideButton.php on line 2
+[Thu Jan 06 21:27:43.750694 2022] [php7:notice] [pid 19560:tid 1824] [client ::1:59396] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\index.php on line 47
+[Thu Jan 06 21:27:45.902067 2022] [php7:notice] [pid 19560:tid 1824] [client ::1:59396] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Thu Jan 06 21:27:45.903145 2022] [php7:notice] [pid 19560:tid 1824] [client ::1:59396] PHP Notice:  Trying to access array offset on value of type null in D:\\xampp server\\cp_dbms\\htdocs\\bank\\sideButton.php on line 2
+[Thu Jan 06 21:27:45.903145 2022] [php7:notice] [pid 19560:tid 1824] [client ::1:59396] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\index.php on line 47
+[Thu Jan 06 21:43:31.725084 2022] [php7:notice] [pid 19560:tid 1836] [client ::1:52966] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/login.php
+[Thu Jan 06 21:43:38.602500 2022] [php7:notice] [pid 19560:tid 1824] [client ::1:52968] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/mindex.php
+[Thu Jan 06 21:43:41.543113 2022] [php7:notice] [pid 19560:tid 1824] [client ::1:52968] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/login.php
+[Thu Jan 06 21:43:50.236410 2022] [php7:notice] [pid 19560:tid 1836] [client ::1:52971] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/login.php
+[Thu Jan 06 21:43:56.590427 2022] [php7:notice] [pid 19560:tid 1824] [client ::1:52974] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/cindex.php
+[Thu Jan 06 21:44:10.567296 2022] [php7:notice] [pid 19560:tid 1836] [client ::1:52978] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/cindex.php
+[Thu Jan 06 22:13:36.128934 2022] [php7:notice] [pid 19560:tid 1824] [client ::1:58055] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Thu Jan 06 22:13:36.131414 2022] [php7:notice] [pid 19560:tid 1824] [client ::1:58055] PHP Notice:  Trying to access array offset on value of type null in D:\\xampp server\\cp_dbms\\htdocs\\bank\\sideButton.php on line 2
+[Thu Jan 06 22:13:36.131414 2022] [php7:notice] [pid 19560:tid 1824] [client ::1:58055] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\index.php on line 47
+[Thu Jan 06 23:06:36.022111 2022] [php7:notice] [pid 19560:tid 1816] [client ::1:62434] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/login.php
+[Thu Jan 06 23:06:41.546732 2022] [php7:notice] [pid 19560:tid 1812] [client ::1:62435] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/mindex.php
+[Thu Jan 06 23:06:49.238808 2022] [php7:notice] [pid 19560:tid 1816] [client ::1:62439] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/login.php
+[Thu Jan 06 23:06:57.122139 2022] [php7:notice] [pid 19560:tid 1816] [client ::1:62439] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/login.php
+[Thu Jan 06 23:07:01.784145 2022] [php7:notice] [pid 19560:tid 1816] [client ::1:62439] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/cindex.php
+[Thu Jan 06 23:07:18.684427 2022] [php7:notice] [pid 19560:tid 1812] [client ::1:62448] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/cindex.php
+[Thu Jan 06 23:07:27.872185 2022] [php7:notice] [pid 19560:tid 1816] [client ::1:62463] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/cindex.php
+[Thu Jan 06 23:07:40.965410 2022] [php7:notice] [pid 19560:tid 1812] [client ::1:62468] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/cindex.php
+[Thu Jan 06 23:07:45.561417 2022] [php7:notice] [pid 19560:tid 1812] [client ::1:62468] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/cindex.php
+[Fri Jan 07 01:16:00.433439 2022] [ssl:warn] [pid 20132:tid 572] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jan 07 01:16:00.477203 2022] [core:warn] [pid 20132:tid 572] AH00098: pid file D:/xampp server/cp_dbms/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jan 07 01:16:00.477203 2022] [ssl:warn] [pid 20132:tid 572] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jan 07 01:16:00.625489 2022] [mpm_winnt:notice] [pid 20132:tid 572] AH00455: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.26 configured -- resuming normal operations
+[Fri Jan 07 01:16:00.625489 2022] [mpm_winnt:notice] [pid 20132:tid 572] AH00456: Apache Lounge VC15 Server built: Oct  8 2021 10:03:59
+[Fri Jan 07 01:16:00.625489 2022] [core:notice] [pid 20132:tid 572] AH00094: Command line: 'd:\\xampp server\\cp_dbms\\apache\\bin\\httpd.exe -d D:/xampp server/cp_dbms/apache'
+[Fri Jan 07 01:16:00.625489 2022] [mpm_winnt:notice] [pid 20132:tid 572] AH00418: Parent: Created child process 20532
+[Fri Jan 07 01:16:00.833837 2022] [ssl:warn] [pid 20532:tid 608] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jan 07 01:16:00.876600 2022] [ssl:warn] [pid 20532:tid 608] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jan 07 01:16:00.907219 2022] [mpm_winnt:notice] [pid 20532:tid 608] AH00354: Child: Starting 150 worker threads.
+[Fri Jan 07 01:48:13.415041 2022] [php7:notice] [pid 20532:tid 1828] [client ::1:64560] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Fri Jan 07 01:48:13.422719 2022] [php7:notice] [pid 20532:tid 1828] [client ::1:64560] PHP Notice:  Trying to access array offset on value of type null in D:\\xampp server\\cp_dbms\\htdocs\\bank\\sideButton.php on line 2
+[Fri Jan 07 01:48:13.422719 2022] [php7:notice] [pid 20532:tid 1828] [client ::1:64560] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\index.php on line 47
+[Fri Jan 07 01:48:15.124850 2022] [php7:notice] [pid 20532:tid 1828] [client ::1:64560] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Fri Jan 07 01:48:15.124850 2022] [php7:notice] [pid 20532:tid 1828] [client ::1:64560] PHP Notice:  Trying to access array offset on value of type null in D:\\xampp server\\cp_dbms\\htdocs\\bank\\sideButton.php on line 2
+[Fri Jan 07 01:48:15.124850 2022] [php7:notice] [pid 20532:tid 1828] [client ::1:64560] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\index.php on line 47
+[Fri Jan 07 01:57:08.880937 2022] [php7:notice] [pid 20532:tid 1820] [client ::1:64719] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/login.php
+[Fri Jan 07 02:02:37.831303 2022] [php7:notice] [pid 20532:tid 1828] [client ::1:64763] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/login.php
+[Fri Jan 07 02:02:51.148041 2022] [php7:notice] [pid 20532:tid 1820] [client ::1:64764] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/mindex.php
+[Fri Jan 07 02:02:57.821846 2022] [php7:notice] [pid 20532:tid 1828] [client ::1:64767] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/login.php
+[Fri Jan 07 10:00:15.138893 2022] [ssl:warn] [pid 20320:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jan 07 10:00:15.182794 2022] [core:warn] [pid 20320:tid 620] AH00098: pid file D:/xampp server/cp_dbms/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jan 07 10:00:15.182794 2022] [ssl:warn] [pid 20320:tid 620] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jan 07 10:00:15.237786 2022] [mpm_winnt:notice] [pid 20320:tid 620] AH00455: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.26 configured -- resuming normal operations
+[Fri Jan 07 10:00:15.237786 2022] [mpm_winnt:notice] [pid 20320:tid 620] AH00456: Apache Lounge VC15 Server built: Oct  8 2021 10:03:59
+[Fri Jan 07 10:00:15.237786 2022] [core:notice] [pid 20320:tid 620] AH00094: Command line: 'd:\\xampp server\\cp_dbms\\apache\\bin\\httpd.exe -d D:/xampp server/cp_dbms/apache'
+[Fri Jan 07 10:00:15.241601 2022] [mpm_winnt:notice] [pid 20320:tid 620] AH00418: Parent: Created child process 7764
+[Fri Jan 07 10:00:15.573932 2022] [ssl:warn] [pid 7764:tid 596] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jan 07 10:00:15.620830 2022] [ssl:warn] [pid 7764:tid 596] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jan 07 10:00:15.659616 2022] [mpm_winnt:notice] [pid 7764:tid 596] AH00354: Child: Starting 150 worker threads.
+[Fri Jan 07 10:00:31.222547 2022] [php7:notice] [pid 7764:tid 1840] [client ::1:53906] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Fri Jan 07 10:00:31.259851 2022] [php7:notice] [pid 7764:tid 1840] [client ::1:53906] PHP Notice:  Trying to access array offset on value of type null in D:\\xampp server\\cp_dbms\\htdocs\\bank\\sideButton.php on line 2
+[Fri Jan 07 10:00:31.259851 2022] [php7:notice] [pid 7764:tid 1840] [client ::1:53906] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\index.php on line 47
+[Fri Jan 07 10:33:38.390311 2022] [php7:notice] [pid 7764:tid 1832] [client ::1:59410] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Fri Jan 07 10:33:38.391324 2022] [php7:notice] [pid 7764:tid 1832] [client ::1:59410] PHP Notice:  Trying to access array offset on value of type null in D:\\xampp server\\cp_dbms\\htdocs\\bank\\sideButton.php on line 2
+[Fri Jan 07 10:33:38.391324 2022] [php7:notice] [pid 7764:tid 1832] [client ::1:59410] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\index.php on line 47
+[Fri Jan 07 10:33:40.293390 2022] [php7:notice] [pid 7764:tid 1832] [client ::1:59410] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Fri Jan 07 10:33:40.294314 2022] [php7:notice] [pid 7764:tid 1832] [client ::1:59410] PHP Notice:  Trying to access array offset on value of type null in D:\\xampp server\\cp_dbms\\htdocs\\bank\\sideButton.php on line 2
+[Fri Jan 07 10:33:40.295314 2022] [php7:notice] [pid 7764:tid 1832] [client ::1:59410] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\index.php on line 47
+[Fri Jan 07 15:49:02.995157 2022] [ssl:warn] [pid 9932:tid 572] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jan 07 15:49:03.026403 2022] [core:warn] [pid 9932:tid 572] AH00098: pid file D:/xampp server/cp_dbms/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jan 07 15:49:03.026403 2022] [ssl:warn] [pid 9932:tid 572] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jan 07 15:49:03.073350 2022] [mpm_winnt:notice] [pid 9932:tid 572] AH00455: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.26 configured -- resuming normal operations
+[Fri Jan 07 15:49:03.073350 2022] [mpm_winnt:notice] [pid 9932:tid 572] AH00456: Apache Lounge VC15 Server built: Oct  8 2021 10:03:59
+[Fri Jan 07 15:49:03.073350 2022] [core:notice] [pid 9932:tid 572] AH00094: Command line: 'd:\\xampp server\\cp_dbms\\apache\\bin\\httpd.exe -d D:/xampp server/cp_dbms/apache'
+[Fri Jan 07 15:49:03.073350 2022] [mpm_winnt:notice] [pid 9932:tid 572] AH00418: Parent: Created child process 16416
+[Fri Jan 07 15:49:03.354493 2022] [ssl:warn] [pid 16416:tid 580] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jan 07 15:49:03.370115 2022] [ssl:warn] [pid 16416:tid 580] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jan 07 15:49:03.401362 2022] [mpm_winnt:notice] [pid 16416:tid 580] AH00354: Child: Starting 150 worker threads.
+[Fri Jan 07 15:49:12.502814 2022] [php7:notice] [pid 16416:tid 1824] [client ::1:65207] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Fri Jan 07 15:49:12.510814 2022] [php7:notice] [pid 16416:tid 1824] [client ::1:65207] PHP Notice:  Trying to access array offset on value of type null in D:\\xampp server\\cp_dbms\\htdocs\\bank\\sideButton.php on line 2
+[Fri Jan 07 15:49:12.510814 2022] [php7:notice] [pid 16416:tid 1824] [client ::1:65207] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\index.php on line 47
+[Fri Jan 07 15:49:19.828194 2022] [php7:notice] [pid 16416:tid 1820] [client ::1:65228] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Fri Jan 07 15:49:19.828194 2022] [php7:notice] [pid 16416:tid 1820] [client ::1:65228] PHP Notice:  Trying to access array offset on value of type null in D:\\xampp server\\cp_dbms\\htdocs\\bank\\sideButton.php on line 2
+[Fri Jan 07 15:49:19.828194 2022] [php7:notice] [pid 16416:tid 1820] [client ::1:65228] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\index.php on line 47
+[Fri Jan 07 20:31:26.591711 2022] [ssl:warn] [pid 20040:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jan 07 20:31:26.627783 2022] [core:warn] [pid 20040:tid 584] AH00098: pid file D:/xampp server/cp_dbms/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jan 07 20:31:26.629781 2022] [ssl:warn] [pid 20040:tid 584] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jan 07 20:31:26.659712 2022] [mpm_winnt:notice] [pid 20040:tid 584] AH00455: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.26 configured -- resuming normal operations
+[Fri Jan 07 20:31:26.659712 2022] [mpm_winnt:notice] [pid 20040:tid 584] AH00456: Apache Lounge VC15 Server built: Oct  8 2021 10:03:59
+[Fri Jan 07 20:31:26.659712 2022] [core:notice] [pid 20040:tid 584] AH00094: Command line: 'd:\\xampp server\\cp_dbms\\apache\\bin\\httpd.exe -d D:/xampp server/cp_dbms/apache'
+[Fri Jan 07 20:31:26.661702 2022] [mpm_winnt:notice] [pid 20040:tid 584] AH00418: Parent: Created child process 3052
+[Fri Jan 07 20:31:26.849702 2022] [ssl:warn] [pid 3052:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jan 07 20:31:26.884702 2022] [ssl:warn] [pid 3052:tid 592] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jan 07 20:31:26.912712 2022] [mpm_winnt:notice] [pid 3052:tid 592] AH00354: Child: Starting 150 worker threads.
+[Fri Jan 07 20:32:02.362908 2022] [php7:notice] [pid 3052:tid 1808] [client ::1:57598] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Fri Jan 07 20:32:02.363918 2022] [php7:notice] [pid 3052:tid 1808] [client ::1:57598] PHP Notice:  Trying to access array offset on value of type null in D:\\xampp server\\cp_dbms\\htdocs\\bank\\sideButton.php on line 2
+[Fri Jan 07 20:32:02.364907 2022] [php7:notice] [pid 3052:tid 1808] [client ::1:57598] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\index.php on line 47
+[Fri Jan 07 20:32:03.755698 2022] [php7:notice] [pid 3052:tid 1832] [client ::1:57658] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Fri Jan 07 20:32:03.756772 2022] [php7:notice] [pid 3052:tid 1832] [client ::1:57658] PHP Notice:  Trying to access array offset on value of type null in D:\\xampp server\\cp_dbms\\htdocs\\bank\\sideButton.php on line 2
+[Fri Jan 07 20:32:03.756772 2022] [php7:notice] [pid 3052:tid 1832] [client ::1:57658] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\index.php on line 47
+[Fri Jan 07 20:34:16.289775 2022] [php7:notice] [pid 3052:tid 1796] [client ::1:57723] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/login.php
+[Fri Jan 07 20:34:22.590775 2022] [php7:notice] [pid 3052:tid 1828] [client ::1:57732] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/mindex.php
+[Fri Jan 07 20:34:27.235778 2022] [php7:notice] [pid 3052:tid 1828] [client ::1:57732] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/show.php?id=1
+[Fri Jan 07 20:34:29.164775 2022] [php7:notice] [pid 3052:tid 1828] [client ::1:57732] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/mindex.php
+[Fri Jan 07 20:34:40.352786 2022] [php7:notice] [pid 3052:tid 1796] [client ::1:57738] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/mnotice.php?id=1
+[Fri Jan 07 20:35:05.049808 2022] [php7:notice] [pid 3052:tid 1828] [client ::1:57765] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/login.php
+[Fri Jan 07 20:35:22.213826 2022] [php7:notice] [pid 3052:tid 1796] [client ::1:57766] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/cindex.php
+[Fri Jan 07 20:35:53.431363 2022] [php7:notice] [pid 3052:tid 1828] [client ::1:57778] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/cindex.php
+[Fri Jan 07 20:35:58.421457 2022] [php7:notice] [pid 3052:tid 1828] [client ::1:57778] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/cindex.php
+[Fri Jan 07 20:36:10.058471 2022] [php7:notice] [pid 3052:tid 1796] [client ::1:57782] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/cindex.php
+[Fri Jan 07 20:36:14.475473 2022] [php7:notice] [pid 3052:tid 1796] [client ::1:57782] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/cindex.php
+[Tue Jan 11 15:57:33.213120 2022] [ssl:warn] [pid 14020:tid 644] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 11 15:57:33.251884 2022] [core:warn] [pid 14020:tid 644] AH00098: pid file D:/xampp server/cp_dbms/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Jan 11 15:57:33.252333 2022] [ssl:warn] [pid 14020:tid 644] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 11 15:57:33.360304 2022] [mpm_winnt:notice] [pid 14020:tid 644] AH00455: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.26 configured -- resuming normal operations
+[Tue Jan 11 15:57:33.360355 2022] [mpm_winnt:notice] [pid 14020:tid 644] AH00456: Apache Lounge VC15 Server built: Oct  8 2021 10:03:59
+[Tue Jan 11 15:57:33.360355 2022] [core:notice] [pid 14020:tid 644] AH00094: Command line: 'd:\\xampp server\\cp_dbms\\apache\\bin\\httpd.exe -d D:/xampp server/cp_dbms/apache'
+[Tue Jan 11 15:57:33.360466 2022] [mpm_winnt:notice] [pid 14020:tid 644] AH00418: Parent: Created child process 15284
+[Tue Jan 11 15:57:33.604990 2022] [ssl:warn] [pid 15284:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 11 15:57:33.643733 2022] [ssl:warn] [pid 15284:tid 640] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Tue Jan 11 15:57:33.678611 2022] [mpm_winnt:notice] [pid 15284:tid 640] AH00354: Child: Starting 150 worker threads.
+[Tue Jan 11 15:57:48.626660 2022] [php7:notice] [pid 15284:tid 1808] [client ::1:49871] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Tue Jan 11 15:57:48.626660 2022] [php7:notice] [pid 15284:tid 1808] [client ::1:49871] PHP Notice:  Trying to access array offset on value of type null in D:\\xampp server\\cp_dbms\\htdocs\\bank\\sideButton.php on line 2
+[Tue Jan 11 15:57:48.626660 2022] [php7:notice] [pid 15284:tid 1808] [client ::1:49871] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\index.php on line 47
+[Tue Jan 11 15:57:50.043639 2022] [php7:notice] [pid 15284:tid 1808] [client ::1:49871] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Tue Jan 11 15:57:50.043639 2022] [php7:notice] [pid 15284:tid 1808] [client ::1:49871] PHP Notice:  Trying to access array offset on value of type null in D:\\xampp server\\cp_dbms\\htdocs\\bank\\sideButton.php on line 2
+[Tue Jan 11 15:57:50.043639 2022] [php7:notice] [pid 15284:tid 1808] [client ::1:49871] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\index.php on line 47
+[Sun Jan 16 17:08:35.969821 2022] [ssl:warn] [pid 17980:tid 588] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jan 16 17:08:36.010894 2022] [core:warn] [pid 17980:tid 588] AH00098: pid file D:/xampp server/cp_dbms/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jan 16 17:08:36.010894 2022] [ssl:warn] [pid 17980:tid 588] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jan 16 17:08:46.434063 2022] [mpm_winnt:notice] [pid 17980:tid 588] AH00455: Apache/2.4.51 (Win64) OpenSSL/1.1.1l PHP/7.4.26 configured -- resuming normal operations
+[Sun Jan 16 17:08:46.434063 2022] [mpm_winnt:notice] [pid 17980:tid 588] AH00456: Apache Lounge VC15 Server built: Oct  8 2021 10:03:59
+[Sun Jan 16 17:08:46.434063 2022] [core:notice] [pid 17980:tid 588] AH00094: Command line: 'd:\\xampp server\\cp_dbms\\apache\\bin\\httpd.exe -d D:/xampp server/cp_dbms/apache'
+[Sun Jan 16 17:08:46.442157 2022] [mpm_winnt:notice] [pid 17980:tid 588] AH00418: Parent: Created child process 17640
+[Sun Jan 16 17:08:46.640548 2022] [ssl:warn] [pid 17640:tid 596] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jan 16 17:08:46.676877 2022] [ssl:warn] [pid 17640:tid 596] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jan 16 17:08:46.714838 2022] [mpm_winnt:notice] [pid 17640:tid 596] AH00354: Child: Starting 150 worker threads.
+[Sun Jan 16 17:08:46.747138 2022] [php7:notice] [pid 17640:tid 1836] [client 127.0.0.1:59407] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4
+[Sun Jan 16 17:08:46.759920 2022] [php7:notice] [pid 17640:tid 1836] [client 127.0.0.1:59407] PHP Notice:  Trying to access array offset on value of type null in D:\\xampp server\\cp_dbms\\htdocs\\bank\\sideButton.php on line 2
+[Sun Jan 16 17:08:46.759920 2022] [php7:notice] [pid 17640:tid 1836] [client 127.0.0.1:59407] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\index.php on line 47
+[Sun Jan 16 17:19:08.961505 2022] [php7:notice] [pid 17640:tid 1800] [client ::1:63137] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/login.php
+[Sun Jan 16 17:19:14.841536 2022] [php7:notice] [pid 17640:tid 1800] [client ::1:63145] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/mindex.php
+[Sun Jan 16 17:19:19.509455 2022] [php7:notice] [pid 17640:tid 1800] [client ::1:63145] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/show.php?id=1
+[Sun Jan 16 17:19:25.451456 2022] [php7:notice] [pid 17640:tid 1828] [client ::1:63146] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/mindex.php
+[Sun Jan 16 17:19:50.652143 2022] [php7:notice] [pid 17640:tid 1800] [client ::1:63152] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/mnotice.php?id=1
+[Sun Jan 16 17:20:39.337429 2022] [php7:notice] [pid 17640:tid 1828] [client ::1:63192] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/login.php
+[Sun Jan 16 17:20:58.244612 2022] [php7:notice] [pid 17640:tid 1800] [client ::1:63193] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/cindex.php
+[Sun Jan 16 17:21:35.539714 2022] [php7:notice] [pid 17640:tid 1828] [client ::1:63198] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/cindex.php
+[Sun Jan 16 17:21:39.650892 2022] [php7:notice] [pid 17640:tid 1828] [client ::1:63198] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/cindex.php
+[Sun Jan 16 17:22:07.751498 2022] [php7:notice] [pid 17640:tid 1800] [client ::1:63216] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/cindex.php
+[Sun Jan 16 17:22:11.932220 2022] [php7:notice] [pid 17640:tid 1800] [client ::1:63216] PHP Notice:  Undefined index: userId in D:\\xampp server\\cp_dbms\\htdocs\\bank\\assets\\db.php on line 4, referer: http://localhost/bank/cindex.php
